@@ -69,6 +69,8 @@ barras de cine, claqueta y «● REC». Sin el mod en el cliente se ven como tí
 
 ## Compilar
 
+Necesitas **Java 25** para ejecutar Gradle (el mod se compila para Java 21).
+
 ```
 ./gradlew build
 ```
