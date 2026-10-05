@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "director",
+	"version": "${version}",
+	"name": "Minecraft Tiene Un Editor",
+	"description": "Un director invisible convierte tu partida survival en un vídeo absurdo. «Instalé un mod que edita mis vídeos antes de que termine de jugarlos».",
+	"authors": ["iduesmc"],
+	"contact": {
+		"sources": "https://github.com/iduesmc-lab/MINECRAFT-TIENE-UN-EDITOR"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.iduesmc.director.DirectorMod"],
+		"client": ["com.iduesmc.director.client.DirectorClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
